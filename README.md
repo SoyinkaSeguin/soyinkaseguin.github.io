@@ -1,1 +1,0 @@
-# soyinkaseguin.github.io
