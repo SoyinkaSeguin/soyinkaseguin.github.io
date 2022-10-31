@@ -1,0 +1,358 @@
+/* Our Style Sheet*/
+
+
+/* 
+display:  {inline-block} helps to adjust the size of an element within its div
+after that u can initiate the element size via width.
+
+Add margin tags to my social media links..
+
+
+vh= VIEWPORT HEIGHT
+*/
+
+
+
+* {box-sizing: border-box;}
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+}
+.container-fluid {
+	width: 100%;
+	height: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: fff;
+
+}
+body {
+	/*margin: 30px;*/
+	font-family: 'Manrope', sans-serif;
+	font-size: 24px;
+	line-height: 1.2;
+	font-weight: 400;
+
+}
+
+header { 
+
+ }
+
+.container {
+	width: 1170px;
+	background-color: fff;
+	margin: 0 auto;xs
+	
+
+}
+
+#troubleshoot { color: rgb(220, 99, 89); 
+text-decoration: none;
+
+}
+
+
+
+.rightalign {
+	float: right;
+	color: white;
+}
+
+.row:before,
+.row:after {
+	content: " ";
+	display: table;
+}
+
+.navlink a {
+	margin-right: 0px;
+	margin-left: 40;
+	padding: 10px;
+	text-decoration: none;
+	color: rgb(220, 99, 89);
+}
+
+img {
+	max-width: 100%;
+}
+h5 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 28px;
+	line-height: 1.3;
+	font-weight: 500;
+}
+
+.hero-grid {
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: auto auto;
+}
+
+#hero-blurb {
+
+	grid-column-start: 6;
+	grid-column-end: 9;
+	grid-row-start: 3;
+	grid-row-end: 4;
+
+}
+
+
+#hero-img {grid-column-start: 2;
+grid-column-end: 6;
+grid-row-start: 1;
+grid-row-end: 4;}
+
+
+.sociallinks {
+	width: 1170px;
+	background-color: white;
+	margin: 0 auto;
+	padding: 10px;
+	padding-bottom: 70px;
+	text-decoration: none;}
+
+	#social-links a{
+		text-decoration: none;
+		color: white;
+	}
+	
+	}
+
+	#email a {
+		color: white;
+	}
+	
+.righttext {
+	text-align: left;
+	text-decoration: none;
+}
+
+
+.project-item {
+	
+    margin-left: -110px;
+    font-size: 3.5em;
+    position: relative;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    color: black;
+   font-weight: bold;
+}
+.project-item:hover {
+
+	color: orange;
+	text-decoration: underline;
+
+}
+
+
+
+
+.minitext {
+	/*Figure out what this coding is*/
+	
+    font-size: 18px;
+    line-height: ;
+    
+}
+
+
+.bluebg {
+	background-color: #7fdffa;
+
+}
+
+.yellowbg {
+	background-color: #f8fa7f;
+
+}
+
+.greenbg {
+background-color: #7ffaa0;;
+
+}
+
+#slide {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-color: whitesmoke;
+	color: rgb(220, 99, 89);;
+	font-size: 5em;
+	ba
+
+}
+
+.centered {
+
+	background-image: url(Soyinka-13.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	width: 100%;
+	color: rgb(220, 99, 89);
+	font-size: 5em;
+	padding-top: 19%;
+	padding-bottom: 60%;
+
+}
+
+
+
+
+
+.category-acronym {
+    position: absolute;
+    left: auto;
+    top: 40px;
+    right: 0%;
+    bottom: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+}
+
+.floatingbody li {
+	display: grid;
+	float: left;
+	margin: 50px;
+	text-decoration: none;
+	grid-column-start: 6;
+	grid-column-end: 9;
+	grid-row-start: 3;
+	grid-row-end: 4;
+
+
+
+}
+
+#bodybold {
+	font-weight: bold;
+	font-size: ;
+	
+}
+
+#VenusDesignSystem{
+	background-color: yellow;
+
+
+}
+
+#illam{
+
+}
+
+#PoeticFilmDiLab{
+
+}
+
+#PVRMobileApplication{
+
+}
+
+#eDesign{
+
+}
+
+#Airport{
+
+}
+
+#daysofart {
+
+}
+
+#illust {
+	margin-top: -500px;
+	height: 570px;
+	position: relative;
+
+}
+
+#illust h6 {
+	position: absolute;
+}
+
+#illust img { 
+	position: absolute;
+	z-index: -1;
+
+ }
+
+
+
+	.chunk {
+	color: white ;
+	background-color: white;
+	padding:  30px 20px; 
+	padding-bottom: 70px;
+
+}
+
+	.buttons  { color: #fff ; background-color: rgb(220, 99, 89);
+              margin-right: 40px;
+			margin-left: 40; 
+			border-radius: 10px;
+			padding: 5px;
+
+		}
+.buttons:hover {
+
+	background-color: skyblue;
+	
+
+}
+
+
+.body:hover { 
+
+background-color: brown; }
+
+#tried {
+
+	color: #fff ;
+	background-color: lightgray;
+	padding:  30px 20px;
+	padding:  30px 20px; 
+	padding-bottom: 40px;
+	border-radius: 10px;
+	font-size: 12px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+	background-color: rgb(220, 99, 89);
+
+
+
+}
+
+#mover { 
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 2;
+object-fit: cover;
+object-position: center;
+height: 70vh;
+overflow: hidden;
+
+ }
+
+ #card-details {
+
+ 	color: white ; background-color: ;
+ }
+
+
+
+
