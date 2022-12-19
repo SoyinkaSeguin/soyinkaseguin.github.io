@@ -1,0 +1,538 @@
+/* THIS IS MY STYLE SHEET!*/
+body {
+	background-color: white;
+	font-family: Helvetica, sans-serif;
+}
+
+header {
+        
+        color: white;
+        background-color: rgb(163, 112, 34);
+		width: 100%;
+		padding: 1rem;
+		z-index: 25;
+         }
+
+
+  .header2 {
+
+  	
+  color: black;
+  background-color: white;
+	width: 100%;
+  margin-bottom: 50px;
+	padding-bottom: 15px;
+	position: fixed;
+	margin-top: 30px;
+		}
+
+  .header2 a {
+
+  	color: black;
+  } 
+
+h2 {
+
+	font-weight: Lighter;
+	text-align: center;
+	padding: 120px;
+	font-size: 50px;
+
+}
+
+#nexth2 {
+
+	font-weight: Lighter;
+	margin-left: 600px;
+	margin-top: 300px;
+	margin-bottom: 300px;
+	padding: 20px;
+	font-size: 50px;}
+
+h3 {
+
+	color: darkblue;
+	font-weight: bold;
+	font-size: 50px;
+	width: 20%;
+}
+
+
+
+
+
+  nav {    }
+
+  h1{
+
+  	font-size: 40px;
+  }
+
+  ul {
+
+  	list-style-type: none;
+  }
+
+  a {
+	float: left;
+	padding-right: 40px;
+	color: white;
+  text-decoration: none;
+
+
+  }
+
+  a img {
+
+   grid-column-start: 20px;
+   grid-column-end: 60px;
+
+  }
+
+  a:hover {
+
+  	color: green;
+  }
+
+
+
+  img {
+  	width: 100%;
+  }
+
+li {
+
+	float: right;
+	padding-right: 80px;
+}
+
+footer {
+
+	background-color:rgb(163, 112, 34);
+	color: white;
+	width: 100%;
+	padding: 100px;
+	margin-top: 80px;
+}
+
+
+
+
+#logo {
+
+width: 10%;
+
+}
+
+
+.row {
+
+
+}
+
+
+.hrow2 {
+
+	float: left;
+	margin-left: 1px;
+
+	
+}
+
+
+#section1 {
+
+	background-color:white;
+	padding-top:300px;
+	margin-bottom: 60px;
+	text-align: center;
+	padding: 150px;
+
+	height: 90vh;
+
+}
+
+
+#sectional1 {
+
+	background-color:white;
+	padding-top:450px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+
+#troubleshoot {
+
+	font-size: 40px;
+	font-weight: bold;
+	padding: 0px;
+}
+
+.navlink {
+
+margin-top: 20px;
+	
+}
+
+.navlink2 {
+
+	
+margin-top: 140px;
+	margin-left: 20px;
+	float: left;
+	
+}
+
+
+.line {
+
+	background-color: rgb(163, 112, 34);
+	width: 100%;
+	height: 2px;
+	position: fixed;
+	z-index: 4;
+	margin-top: 50px;
+}
+
+#line2 {
+
+	background-color: rgb(163, 112, 34);
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	margin-top: 400px;
+	margin-bottom: 50px;
+	
+}
+
+
+
+#lined {
+
+	background-color: rgb(163, 112, 34);
+	width: 100%;
+	height: 2px;
+	position: fixed;
+	margin-top: -100px;
+	z-index: 9;
+	
+}
+
+#cheatheart {
+
+	width: 20%;
+	margin-right: 200px;
+}
+
+
+#line3 {
+
+	background-color: rgb(163, 112, 34);
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	
+}
+
+#indxline2 {
+
+	background-color: rgb(163, 112, 34);
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	margin-top: 60px;
+	
+	
+
+}
+
+
+#oval {
+        background-color: rgb(163, 112, 34) ;
+	border-radius: 80px 80px 80px 80px;
+        width: 160px;
+        height: 250px;
+}
+
+.button1 {
+
+	background-color: darkblue ;
+	border-radius: 80px 80px 80px 80px;
+	padding: 5px;
+        width: 100px;
+        margin-left: 220px;
+        margin-top: 40px;
+        
+        font-weight: bold;
+        font-size: 12px;
+        position: absolute;
+}
+
+.buttonn {
+
+	background-color: darkblue ;
+	border-radius: 80px 80px 80px 80px;
+	padding: 5px;
+        width: 100px;
+        margin-left: 5px;
+        margin-top: 15px;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+        position: absolute;
+}
+
+
+
+
+.button2 {
+
+	background-color: darkblue ;
+	border-radius: 10px 10px 10px 10px;
+	padding: 20px;
+	padding-bottom: 50px;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+
+}
+
+.slidebutton {
+
+	background-color: rgb(163, 112, 34) ;
+	border-radius: 20px 20px 20px 20px;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+  width: 100px;
+  height: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+
+}
+
+
+.button3 {
+	background-color: white ;
+	border-radius: 10px 10px 10px 10px;
+	padding: 5px;
+        width: 300px;
+        height: 250px;
+        margin-left: 10px;
+       margin-bottom: 30px;
+       margin-top: 100;
+        
+        font-weight: bold;
+        font-size: 12px;
+        position: relative;
+        color: black;
+
+}
+
+
+#servButtons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 50%;
+	margin: 0 auto;
+}
+
+
+#choiceButtons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: -73px;
+
+
+
+}
+
+#revButtons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 25%;
+	margin: 0 auto;
+
+}
+
+
+
+
+
+
+.slide {
+
+	float: left;
+	margin-left: 300px;
+	margin-top: -100px;
+
+}
+
+#pic {
+	width: 20%;
+	position: absolute;
+	padding-right: 150px;
+	padding-bottom: 100px;
+	z-index: 0;
+}
+
+.together {
+
+	margin-left: 200px;
+	margin-top: 10px;
+	
+}
+
+
+.containerindx {
+	margin-top: 300px;
+	width: 75%;
+	position: relative;
+	z-index: 1;
+
+
+}
+
+
+.indx-getin {
+	
+	margin-bottom: 100px;
+	margin-top: -120px;
+	text-align: center;
+	
+}
+
+#getout {
+
+	margin-left: 700px;
+
+}
+
+.figureout {
+
+	font-weight: lighter;
+	margin-left: 220px;
+	position: absolute;
+	padding-top: 50px;
+}
+
+#fix {
+	margin-left: 870px;
+	margin-top: -60px;
+}
+
+.t {
+	margin-top: 200px;
+
+}
+
+
+
+#services {
+	text-align: center;
+
+}
+
+
+#reviews {
+	text-align: center;
+	background-color: lightgrey;
+	margin-top: 135px;
+	margin-bottom: 100px;
+
+
+}
+
+#cardtext {
+
+	position: absolute;
+
+margin-top: 120px;
+margin-left: 40px;
+font-weight: lighter;
+
+}
+
+#stars {
+
+	margin-bottom: 35px;
+	width: 100px;
+}
+
+#cardheader {
+
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+#foothelp {
+
+	padding: 100px;
+}
+
+.listimg {
+
+	margin-top: 150px;
+
+width: 90%;
+	margin-left: 0px;
+}
+
+#green {
+	background-color: rgb(90, 86, 57) ;
+
+}
+
+#blue{
+	background-color: rgb(17, 43, 129);
+
+}
+
+#white {
+	background-color: rgb(255, 255, 255) ;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+
+
+}
+
+#orange {
+	background-color: rgb(163, 112, 34);
+
+
+}
+
+#grey {
+	background-color: rgb(188, 188, 188) ;
+
+}
+
+.fixed {
+	position: fixed;
+	z-index: 30;
+}
+
+.fixed2 {
+	position: fixed;
+	z-index:8;
+}
+
+.titletesting {
+
+	margin-left: 400px;
+}
+
+
